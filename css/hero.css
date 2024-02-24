@@ -1,0 +1,98 @@
+
+@font-face {
+    font-family: 'font1';
+    src: url('../fonts/Chomsky.otf');
+}  
+@font-face {
+    font-family: 'font2';
+    src: url('../fonts/ErodedPersonal.ttf');
+} 
+@font-face {
+    font-family: 'font3';
+    src: url('../fonts/steelfish\ bd.otf');
+}
+.backimg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* Cover the entire width of the viewport */
+    height: 100%; /* Cover the entire height of the viewport */
+    /* background-image: url('/assets/black.jpg');  */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.background{
+    height: 95lvh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    margin: 0;
+}
+.text{
+    position: absolute;
+    top: 0%;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 60px;
+    font-family: font3;
+    color: rgb(15, 15, 10);
+
+}
+.hero {
+    position: relative;
+    width: 100%;
+    max-width: 1500px; /* Set maximum width if needed */
+    margin: 0 auto;
+  }
+  
+  .hero img {
+    width: 100%;
+    height: auto;
+    display: block; 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.line{
+    padding: 10px;
+    border-top: 5px double rgb(15, 15, 10);
+}
+  /* Adjust image size for different screen sizes */
+  @media (max-width: 768px) {
+    .hero img {
+        width: 1400px;
+      max-width: 100%;
+      /* Set maximum width for smaller screens */
+    }
+  }
+  
+
+@media  screen and (max-width:480px) {
+    .text{
+        position: absolute;
+        top:10%;
+        left: 18%;
+        font-size: 150%;
+    }
+    .hero img {
+        max-width: 100%; /* Set maximum width for smaller screens */
+      }
+}
+@media screen and (max-width:376px) {
+    .text{
+        position: absolute;
+        top:10%;
+        left: 17%;
+        font-size: 140%;
+    }
+    .hero img {
+        max-width: 100%; /* Set maximum width for smaller screens */
+      }
+}
