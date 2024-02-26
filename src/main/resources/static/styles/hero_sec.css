@@ -1,0 +1,28 @@
+.hero_sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mechasso_head{
+    font-size: 52px;
+    font-family: "Mountella";
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+.small_text{
+    font-size: 24px;
+    font-family: "Zeit";
+    margin: 20px 0;
+}
+
+.hero_logo_holder{
+    width: 90%;
+}
+
+.hero_logo{
+    width: 100%;
+    height: auto;
+}

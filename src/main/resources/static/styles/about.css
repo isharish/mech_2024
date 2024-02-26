@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'font2';
+    src: url('../fonts/ErodedPersonal.ttf');
+  } 
+  @font-face {
+    font-family: 'font3';
+    src: url('../fonts/steelfish\ bd.otf');
+  }
+  .about{
+      /* width: 1000px; */
+      /* padding: 100px; */
+      display: flex;
+      justify-content: center;
+       /* background-image: url('/assets/about.png');  */
+       /* background-size: cover;  */
+       background-position: center; 
+       /* background-repeat: no-repeat; */
+  }
+  .about img{
+      width: 500px;
+  }
+  .about-full{
+      border-bottom: 5px double rgb(15, 15, 10);
+  }
+  *{
+      box-sizing: border-box;
+  }
+  .flex-container {
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 30px;
+      text-align: center;
+    }
+    
+    .flex-item-left{
+      /* display: flex;
+      justify-content: center; */
+      /* align-items: center; */
+      /* background-image: url("/assets/college1.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat; */
+      padding:50px;
+      flex: 50%;
+      /* border-radius: 10px; */
+    }
+    .flex-item-left > .img{
+      padding:25% ;
+      background-image: url("/pictures/college1.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      /* margin: 2px 2px 2px 4px; */
+      border-radius: 10px;
+    }
+    /* .flex-item-left img{
+      width: 300px;
+    } */
+    .flex-item-right h4{
+      font-family: font1;
+      font-size: 35px;
+      margin: 0;
+      /* font-style: italic; */
+    }
+    .flex-item-right p{
+      font-family: font3;
+    }
+    .flex-item-right {
+      font-size: 20px;
+      text-align: justify;
+      background-color: transparent;
+      padding: 50px;
+      flex: 50%;
+    }
+    /* @media (max-width: 2561px) {
+      .flex-item-left > .img{
+        padding:20% ;
+        background-image: url("/assets/college1.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        
+        border-radius: 10px;
+      }
+      .flex-item-right h4{
+        font-family: font1;
+        font-size: 50px;
+        margin: 0;
+        
+      }
+     .flex-item-right{
+      font-size: 40px;
+     }
+    } */
+    @media (max-width: 1441px) {
+      .flex-item-right p{
+        font-family: font3;
+        font-size: 30px;
+      }
+   }
+   @media (max-width: 1025px) {
+    .flex-item-right p{
+      font-family: font3;
+      font-size: 20px;
+    }
+  }
+    @media (max-width: 800px) {
+       .flex-item-left > .img {
+        padding: 45%;
+        /* flex: 80%; */
+      }
+      .flex-item-right p{
+        font-family: font3;
+        font-size: 20px;
+      }
+    }
+    @media (max-width: 480px) {
+      .flex-item-left > .img {
+        padding: 28%;
+        /* flex: 80%; */
+      }
+      .flex-item-right {
+        padding: 30px;
+      }
+      .flex-item-left{
+        padding: 30px;
+      }
+    }
+  

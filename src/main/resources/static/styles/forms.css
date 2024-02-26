@@ -1,0 +1,173 @@
+.form_holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.form_head {
+  color: #584838;
+  font-size: 32px;
+  font-family: "Brawler";
+  font-weight: bold;
+  text-decoration: underline;
+  margin: 20px 0;
+}
+
+.form_cont {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 80%;
+}
+
+.form_flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.form_sub_field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  /* padding: 20px; */
+  gap: 10px;
+}
+
+.form_inp {
+  display: flex;
+  flex-direction: column;
+}
+
+.form_anomoly {
+  flex-direction: row !important;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.field_name {
+  font-family: "Zeit";
+  font-size: 20px;
+  margin: 5px 0;
+}
+
+.sub_field_head {
+  font-size: 22px;
+  font-family: "Zeit";
+}
+
+.form_input_box {
+  background-color: transparent;
+  border: 1.5px #584838 solid;
+  height: 28px;
+  font-size: 20px;
+  width: 20ch;
+  font-family: "Zeit";
+  /* border-radius: 5px; */
+}
+
+.form_input_box:focus {
+  outline: none;
+}
+
+.input_anomoly {
+  width: 40ch;
+}
+
+.form_submit_button {
+  background-color: #584838;
+  padding: 10px 30px;
+  margin: 20px 0;
+  box-shadow: none;
+  color: #ffffff;
+  font-family: "Handshop";
+  font-size: 20px;
+  border-radius: 5px;
+  border: none; /* Remove border */
+  outline: none; /* Remove outline */
+  box-shadow: none;
+  letter-spacing: 5px;
+  cursor: pointer;
+}
+
+.form_submit_button:hover {
+  transform: scale(1.1);
+  transition: ease-out 300ms;
+}
+
+@media (max-width: 1192px) {
+  .input_anomoly {
+    width: 30ch;
+  }
+}
+
+@media (max-width: 986px) {
+  .form_anomoly {
+    flex-direction: column !important;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 0px;
+  }
+  .form_cont {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 950px) {
+  .form_input_box {
+    width: 25ch;
+  }
+  .input_anomoly {
+    width: 30ch;
+  }
+  .form_flex{
+    gap: 10px;
+  }
+}
+
+@media(max-width:650px){
+    .form_head {
+        font-size: 28px;
+    }
+    .form_input_box{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 500px) {
+  .form_input_box {
+    width: 20ch;
+  }
+  .input_anomoly {
+    width: 25ch;
+  }
+  .form_head {
+    font-size: 28px;
+  }
+  .field_name {
+    font-size: 18px;
+  }
+  .sub_field_head {
+    font-size: 18px;
+  }
+  .form_input_box {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 375px) {
+  .form_input_box {
+    width: 20ch;
+  }
+  .input_anomoly {
+    width: 20ch;
+  }
+}

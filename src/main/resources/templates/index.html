@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Harish I & Sathiyan R" />
+    <meta
+      name="description"
+      content="Shackles is a national-level technical symposium. We're a dedicated group promoting excellence in mechanical engineering. Our event offers technical presentations, workshops, networking, competitions, and idea discussions. Join us to gain insights, expand your skills, connect with peers and professionals, and be inspired by the latest innovations. Whether you're a student or educator, come explore the frontiers of mechanical engineering with us."
+    />
+    <link href="./styles/index.css" rel="stylesheet" />
+    <link href="./styles/navbar.css" rel="stylesheet" />
+    <link href="./styles/forms.css" rel="stylesheet" />
+    <link href="./styles/general.css" rel="stylesheet" />
+    <link href="./styles/eventdesc.css" rel="stylesheet" />
+    <link href="./styles/hero_sec.css" rel="stylesheet" />
+    <link href="./styles/about.css" rel="stylesheet" />
+    <link href="./styles/schedule.css" rel="stylesheet" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="icon" href="./pictures/mechaso.webp" type="image/x-icon" />
+
+    <title>Shackles 2024</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <nav class="nav">
+        <a class="nav-header" href="#">
+          <div class="nav-title">
+            <img
+              class="nav_logo"
+              src="./pictures/shackles.webp"
+              alt=""
+              srcset=""
+            />
+          </div>
+        </a>
+
+        <ul class="nav-list">
+          <li class="nav_item"><a class="nav_link" href="#">Home</a></li>
+          <li class="nav_item"><a class="nav_link" href="#">Events</a></li>
+          <li class="nav_item"><a class="nav_link" href="#">Workshops</a></li>
+          <li class="nav_item"><a class="nav_link" href="#">Contact</a></li>
+        </ul>
+
+        <div class="nav_kebab_cont" id="kebab">
+          <div class="nav_kebab_round"></div>
+          <div class="nav_kebab_round"></div>
+          <div class="nav_kebab_round"></div>
+        </div>
+      </nav>
+
+      <div class="nav_drop_section nav_drop_close_action" id="nav_drop">
+        <div class="nav_drop_close_cont">
+          <div class="nav_drop_close" id="nav_close">
+            <div class="nav_close_line line_1"></div>
+            <div class="nav_close_line line_2"></div>
+          </div>
+        </div>
+        <ul class="nav_drop_list">
+          <li class="nav_drop_item">
+            <a class="nav_drop_link" href="#">HOME</a>
+          </li>
+          <li class="nav_drop_item">
+            <a class="nav_drop_link" href="#">EVENTS</a>
+          </li>
+          <li class="nav_drop_item">
+            <a class="nav_drop_link" href="#">WORKSHOPS</a>
+          </li>
+          <li class="nav_drop_item">
+            <a class="nav_drop_link" href="#">CONTACT US</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="content_holder">
+      <div class="horz_div"></div>
+      <div class="black_border_cont">
+        <div class="star_header_cont">
+          <div class="star_header">
+            <div class="double_line_cont"></div>
+            <div class="star_heading_cont">
+              <div class="stars_box">
+                <div class="star_cont">
+                  <img class="star" src="./pictures/star.webp" />
+                </div>
+                <div class="star_cont">
+                  <img class="star" src="./pictures/star.webp" />
+                </div>
+                <div class="star_cont">
+                  <img class="star" src="./pictures/star.webp" />
+                </div>
+              </div>
+              <div class="star_heading">ACGCET</div>
+              <div class="stars_box">
+                <div class="star_cont">
+                  <img class="star" src="./pictures/star.webp" />
+                </div>
+                <div class="star_cont">
+                  <img class="star" src="./pictures/star.webp" />
+                </div>
+                <div class="star_cont">
+                  <img class="star" src="./pictures/star.webp" />
+                </div>
+              </div>
+            </div>
+            <div class="double_line_cont"></div>
+          </div>
+        </div>
+
+        <div class="hero_sec">
+          <div class="mechasso_head">MECHANICAL ASSOCIATION</div>
+          <div class="small_text presents">PRESENTS</div>
+
+          <div class="hero_logo_holder">
+            <img class="hero_logo" src="./pictures/hero_shackles.webp" />
+          </div>
+        </div>
+      </div>
+      <div class="about-full">
+        <div class="about">
+          <img src="/pictures/about.png" alt="" srcset="">
+        </div><br>
+        
+        <div class="flex-container">
+          <div class="flex-item-left">
+            <div class="img"></div>
+          </div>
+          <div class="flex-item-right">
+            <div class="content">
+              <h4>SHACKLES</h4>
+              <p>Shackles is a national- level technical symposium. We’re a dedicated Our event offers technical presentations, workshops, networking, competitions, and idea discussions. Join us to gain insights, expand your skills, connect with peers and professionals, and be inspired by the latest innovations. Whether you're a student or educatorcome explore the frontiers of mechanical engineering with us.,
+              </p>
+            </div>
+          </div>
+        </div><br>
+      </div><br>
+
+      <div class="schedule">
+        <div class="btn-grp">
+          <button class="tablink" onclick="openCity('London', this, '#554535')" id="defaultOpen">DAY 01</button>
+          <button class="tablink" onclick="openCity('Paris', this, '#554535')">DAY 02</button>
+  
+        </div>
+        <div id="London" class="tabcontent">
+          <h1>DAY 01</h1>
+          <p>London is the capital city of England.</p>
+        </div>
+        
+        <div id="Paris" class="tabcontent">
+          <h1>DAY 02</h1>
+          <p>Paris is the capital of France.</p> 
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/nav.js"></script>
+    <script src="./js/schedule.js"></script>
+  </body>
+</html>

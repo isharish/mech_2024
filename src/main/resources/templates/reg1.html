@@ -1,0 +1,22 @@
+<!-- src/main/resources/templates/userForm.html -->
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>User Form</title>
+</head>
+<body>
+
+    <h2>User Form</h2>
+
+    <form th:action="@{/store1}" th:object="${user}" method="POST">
+        <label>Name: <input type="text" th:field="*{name}" required/></label><br>
+        <label>college: <input type="text" th:field="*{col_name}" required/></label><br>
+        <label>Email: <input type="email" th:field="*{email}" required/></label><br>
+        <label>Phone: <input type="text" th:field="*{phone}" required/></label><br>
+
+        <button type="submit">Save User</button>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,206 @@
+.event_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.event_header{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.event_pic_holder{
+    padding: 10px;
+    border: 2px black solid;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.event_pic{
+    width: 100%;
+    height: auto;
+}
+
+.event_heading{  
+    font-family: "Mountella";
+    color: black;
+    font-size: 80px;
+    letter-spacing: 7px;
+}
+
+.event_desc{
+    margin: 40px 0 20px 0;
+    width: 80%;
+}
+
+.event_desc_head{
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 32px;
+    font-family: "Brawler";
+    color: #584838;
+    /* letter-spacing: 5px; */
+}
+
+.event_round_head{
+    font-weight: bold;
+    font-size: 22px;
+    font-family: "Zeit";
+    color: black;
+}
+
+.event_desc_points{
+    margin: 20px 0;
+    font-family: "Zeit";
+    font-size: 20px;
+    letter-spacing: 3px;
+    line-height: 2rem;
+}
+
+.event_desc_para{
+    /* width: 80%; */
+    text-align: justify;
+    font-family: "Zeit";
+    font-size: 20px;
+    letter-spacing: 3px;
+    line-height: 2rem;
+    margin: 20px 0;
+}
+
+.queries_holder{
+    margin: 40px 0;
+}
+
+.query_list_holder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.query_item{
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    text-decoration: none;
+}
+
+.query_icon_holder{
+    margin: 0 20px;
+    width: 30px;
+}
+
+.query_icon{
+    width: 100%;
+    height: auto;
+}
+
+.q_phone_no{
+    margin: 0 5px;
+}
+
+.q_phone_no:hover{
+    text-decoration: underline;
+}
+
+.q_mail{
+    color: black;
+}
+
+.q_mail:hover{
+    text-decoration: underline;
+}
+
+.query_content{
+    font-family: "Zeit";
+    font-size: 20px;
+    letter-spacing: 3px;
+    line-height: 2rem;
+    text-decoration: none;
+    color: black;
+}
+
+@media(max-width:1200px){
+    .event_heading{
+        font-size: 70px;
+    }
+}
+
+@media(max-width:1000px){
+    .event_heading{
+        font-size: 50px;
+    }
+}
+
+@media(max-width:750px){
+    .event_heading{
+        font-size: 40px;
+    }
+}
+
+@media(max-width:650px){
+    .event_header{
+        flex-direction: column-reverse;
+    }
+    .event_heading{
+        text-align: center;
+        font-size: 44px;
+    }
+    .event_pic_holder{
+        width: 50%;
+        margin-top: 20px;
+    }
+    .event_desc_head{
+        font-size: 28px;
+    }
+
+    .event_desc_points{
+        font-size: 18px;
+    }
+
+    .query_content{
+        font-size: 18px;
+    }
+    .event_desc{
+        width: 90%;
+    }
+}
+
+@media(max-width:500px){
+    .event_heading{
+        font-size: 40px;
+    }
+    .query_icon_holder{
+        margin: 0 10px;
+        width: 30px;
+    }
+    .query_content{
+        font-size: 16px;
+    }
+}
+
+@media(max-width:400px){
+    .q_email{
+        font-size: 15px;
+    }
+}
+
+@media(max-width:375px){
+    .query_item{
+        flex-direction: column;
+    }
+    .event_heading{
+        font-size: 32px;
+    }
+    .q_email{
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,169 @@
+.navbar{
+  padding: 10px;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-header{
+  width: 17%;
+  min-width: 160px;
+}
+
+.nav-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+
+.nav_logo{
+  width: 100%;
+  height: auto;
+}
+
+.nav-list{
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* width: 50%; */
+  width: fit-content;
+}
+
+.nav_item{
+  list-style: none;
+}
+
+.nav_link{
+  text-decoration: none;
+  color: #584838;
+  font-family: "Brawler";
+  font-size: 24px;
+  margin: 0 30px;
+}
+
+.nav_link:hover{
+  border-bottom: 2px #584838 solid;
+}
+
+.nav_kebab_cont{
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  padding: 7px;
+}
+
+.nav_kebab_round{
+  margin: 2px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #000;
+}
+
+.nav_drop_list{
+  list-style: none;
+  padding: 0%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.nav_drop_item{
+  margin: 30px;
+  border-bottom: 2px #E2CA9A solid;
+}
+
+.nav_drop_link{
+  text-decoration: none;
+  font-size: 22px;
+  color: #E2CA9A;
+  font-family: "Handshop";
+  padding: 20px;
+  text-align: center;
+}
+
+.nav_drop_section{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 60vh;
+  background-color: #584838;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav_drop_close_action{
+  transform: translateY(-100%);
+  transition:cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+}
+
+.nav_drop_open_action{
+  transform: translateY(0);
+  transition:cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+}
+
+.nav_drop_close_cont{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 100%;
+  
+}
+
+.nav_drop_close{
+  /* width: 30%; */
+  /* margin: 0 20px; */
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.nav_close_line{
+  height: 3px;
+  margin: 20px;
+  width: 40px;
+  background-color: #E2CA9A;
+}
+
+.line_1{
+  transform: rotate(45deg) translateX(15px);
+}
+
+.line_2{
+  transform: rotate(-45deg) translateX(15px);
+}
+
+@media(max-width:920px){
+  .nav_link{
+    margin: 0 17px;
+  }
+  .nav-list{
+    padding: 0 30px;
+  }
+}
+@media(max-width:780px){
+  .nav-list{
+    padding: 0 20px;
+  }
+  .nav-header{
+    width: 30%;
+  }
+}
+
+@media(max-width:768px){
+  .nav-list{
+    display: none;
+  }
+  .nav_kebab_cont{
+    display: flex;
+  }
+}

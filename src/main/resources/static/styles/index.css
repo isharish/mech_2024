@@ -1,0 +1,90 @@
+body {
+  /* height: 100vh; */
+  margin: 0;
+  /* background-color: #E2CA9A; */
+  background-image: url("../pictures/back1.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: "Handshop";
+  src: url("../fonts/HandShopTypography-C30.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Zeit";
+  src: url("../fonts/Zeit-Light.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Mountella";
+  src: url("../fonts/MountellaTrial-SemiBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Brawler";
+  src: url("../fonts/Brawler-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.card_holder {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: fit-content;
+}
+
+.card_outer {
+  padding: 10px;
+  border: 2px #584838 solid;
+  width: 250px;
+  background-color: #584838;
+}
+
+.card_inner {
+  /* background-color: #E2CA9A; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  /* padding: 10px; */
+}
+
+.card_header {
+    color: #E2CA9A;
+    font-size: 20px;
+    font-family: "Handshop", sans-serif;
+    margin: 10px 0;
+}
+
+.card_content_hold {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  /* width: fit-content; */
+}
+
+.card_pic_holder {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.card_pic {
+  width: 100%;
+  height: auto;
+}
+
+.card_button{
+    background-color: #E2CA9A;
+    padding: 5px;
+}

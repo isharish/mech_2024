@@ -1,0 +1,74 @@
+.content_holder{
+    margin: 0 20px;
+}
+
+.black_border_cont{
+    border: 3px #000 solid;
+    margin: 20px 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.horz_div{
+    height: 14px;
+    background-color: rgba(0, 0, 0, 0.77);
+}
+
+.star_header_cont{
+    
+    width: 60%;
+    min-width: 300px;
+
+}
+
+.star_header{
+    width: fit-content;
+    margin: 45px 0;
+}
+.star_heading_cont{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.double_line_cont{
+    height: 5px;
+    border-bottom: 3px black solid;
+    border-top: 3px black solid;
+}
+
+.stars_box{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.star_heading{
+    width: 40%;
+    font-size: 44px;
+    text-align: center;
+    font-family: "Brawler";
+}
+
+.star_cont{
+    width: 30%;
+}
+
+.star{
+    width: 100%;
+    height: auto;
+}
+
+
+@media(max-width:500px){
+    .content_holder{
+        margin: 0 5px;
+    }
+    .black_border_cont{
+        padding: 5px;
+    }
+}

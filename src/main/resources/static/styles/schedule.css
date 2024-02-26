@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'font1';
+    src: url('../fonts/Chomsky.otf');
+  } 
+  @font-face {
+    font-family: 'font2';
+    src: url('../fonts/ErodedPersonal.ttf');
+  } 
+  @font-face {
+    font-family: 'font3';
+    src: url('../fonts/steelfish\ bd.otf');
+  }
+  .tablink {
+      background-color: transparent;
+      color: black;
+      /* float: left; */
+      margin-left: 7px;
+      outline: none;
+      cursor: pointer;
+      padding: 12px 10px;
+      font-size: 17px;
+      width: 25%;
+      border-top: 2px solid black; /* Example top border */
+      border-left: 2px solid black; /* Example left border */
+      border-right: 2px solid black; /* Example right border */
+      border-bottom: none; /* No border at the bottom */
+      /* box-sizing: border-box; */
+      border-radius: 10px 10px 0 0;
+    }
+    .btn-grp{
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+    }
+    .tablink:hover {
+      background-color: transparent;
+    }
+    
+    /* Style the tab content */
+    .tabcontent {
+      border-top: 1px solid black;
+      color: black;
+      display: none;
+      padding: 60px;
+      text-align: center;
+    }
+    .schedule{
+      /* flex-direction: column; */
+  
+      padding: 5%;
+      /* margin-right: 20%;
+      margin-left: 20%; */
+    }
+    .btn-grp{
+      font-family: font1;
+    }
+    @media (max-width: 363px) {
+     .tablink{
+      font-size: 14px;
+      width: 30%;
+    padding: 10px;
+     }
+   }
