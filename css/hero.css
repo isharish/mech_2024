@@ -65,6 +65,7 @@ body{
     border-top: 5px double rgb(15, 15, 10);
 }
   /* Adjust image size for different screen sizes */
+ 
   @media (max-width: 768px) {
     .hero img {
         width: 1400px;

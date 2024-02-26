@@ -72,6 +72,26 @@
     padding: 50px;
     flex: 50%;
   }
+  /* @media (max-width: 2561px) {
+    .flex-item-left > .img{
+      padding:20% ;
+      background-image: url("/assets/college1.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      
+      border-radius: 10px;
+    }
+    .flex-item-right h4{
+      font-family: font1;
+      font-size: 50px;
+      margin: 0;
+      
+    }
+   .flex-item-right{
+    font-size: 40px;
+   }
+  } */
   @media (max-width: 1441px) {
     .flex-item-right p{
       font-family: font3;
